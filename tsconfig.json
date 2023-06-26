@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+
+// {
+//   "compilerOptions": {
+//       "target": "ES2020",
+//       "module": "ES2020" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
+//       "strict": true,
+//       "esModuleInterop": true,
+//       "allowSyntheticDefaultImports": true,
+//       "moduleResolution": "node",
+//       "paths": {
+//           "mini-signals": ["./node_modules/resource-loader/typings/mini-signals.d.ts"]
+//       },
+//       "skipLibCheck": false,
+//       "lib": ["DOM", "ES2020"]
+//   },
+//   "include": ["./src/index.ts"]
+// }
+
+// {
+//   "compilerOptions": {
+//     "outDir": "./dist/",
+//     "noImplicitAny": true,
+//     "sourceMap": true,
+//     "module": "ESNext",
+//     "moduleResolution": "node",
+//     "allowSyntheticDefaultImports": true,
+//     "experimentalDecorators": true,
+//     "noUnusedLocals": true,
+//     "noUnusedParameters": true,
+//     "target": "es5",
+//     "esModuleInterop": true
+//   },
+//   "include": [
+//     "src/*.ts"
+//   ]
+// }
